@@ -1,0 +1,30 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+h1{
+  display: inline-block;
+  color: #337ab7;
+}
+p{
+  font-size: 115%;
+}
+main{
+  margin-top: 100px;
+}
+main div{
+  display: inline-block;
+}
+p a{
+  color: white;
+}
+.shade-image{
+  box-shadow: 10px 10px 5px #888888;
+  margin-bottom: 10px;
+}
+.webpage{
+  width: 100%;
+}
+.logo{
+  width: 10%;
+}
