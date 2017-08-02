@@ -2,9 +2,18 @@
   margin: 0px;
   padding: 0px;
 }
+.header{
+  margin-top: 15px;
+}
 h1{
   display: inline-block;
   color: #337ab7;
+}
+li{
+  text-align: right;
+}
+.navBtn{
+  margin-top: 15px;
 }
 p{
   font-size: 115%;
