@@ -24,7 +24,7 @@ main{
 main div{
   display: inline-block;
 }
-p a{
+button a{
   color: white;
 }
 .shade-image{
