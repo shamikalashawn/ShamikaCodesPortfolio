@@ -49,9 +49,6 @@ button a{
   display: inline-block;
   height: 100%;
 }
-.text-center{
-  text-align: center;
-}
-.details p{
+.details-p{
   height: 60%;
 }
