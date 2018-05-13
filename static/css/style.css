@@ -38,8 +38,14 @@ button a{
   width: 10%;
 }
 .details{
-  height: 30%;
+  display: inline-block;
+  height: 20vh;
 }
 .title-and-thumbnail{
-  height: 50%;
+  display: inline-block;
+  height: 35vh;
+}
+.column{
+  display: inline-block;
+  height: 100%;
 }
