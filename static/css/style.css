@@ -51,5 +51,7 @@ button a{
 }
 .text-center{
   text-align: center;
+}
+.details p{
   height: 60%;
 }
