@@ -39,6 +39,9 @@ button a{
   height: 25vh;
 }
 .logo{
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
   width: 10%;
 }
 .details{
@@ -55,4 +58,7 @@ button a{
 }
 .details-p{
   height: 60%;
+}
+.tech-logos{
+  text-align: center;
 }
