@@ -62,3 +62,7 @@ button a{
 .tech-logos{
   text-align: center;
 }
+.app-title{
+  display: inline-block;
+  height: 10vh;
+}
