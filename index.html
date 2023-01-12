@@ -20,7 +20,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <h1 class='navbar-nav'>Shamika Goddard</h1>
+          <h1 class='navbar-nav'>Shamika Klassen</h1>
         </div>
         <div class="navbar-right collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav">
@@ -38,10 +38,42 @@
         </div>
         <div class="col-xs-12 col-md-4 col-lg-6">
           <p>Shamika is one part geek, one part nerd, and all parts heart.  She loves learning and has turned her attention to programming.  A full stack web developer with an emphasis on the back-end, Shamika also has experience in sales, customer service, and IT support.  She made her <a href="https://www.angelfire.com/journal2/shaquanisha/mathcamp_home_page.html">first website</a> in high school within two days in order to share pictures with her friends from math camp without any prior experience with HTML.  Now with several websites and projects under her belt, she is looking to apply her skills to a good cause here in NYC.  </p>
-          <p>For a taste of her talents, feel free to peruse one of the projects below.  If you would like to get in touch with Shamika, please reach out and contact her!</p>
+          <p>For a taste of her talents, feel free to peruse one of the projects below.  If you would like to get in touch with Shamika, please reach out and <a href="#" id="myModal">contact her!</a> </p>
         </div>
       </div>
     </main>
+    <section class="container">
+      <div class="row">
+      </div>
+    </section>
+    <section class="container">
+      <h1>E-ucharist App</h1>
+      <div class="row">
+          <p class='text-center details-p'>Now you can use your phone to commune with the divine with the <a href="https://www.e-ucharist.com/">E-ucharist app.</a>  Available in the <a href="https://play.google.com/store/apps/details?id=com.e_ucharist.e_ucharist&pli=1">Google Play Store.</a></p>
+        <div class="column col-xs-12 col-sm-4 col-md-4 col-lg-4">
+          <div class="title-and-thumbnail">
+            <h3>Android</h3>
+            <img class="img-rounded img-responsive webpage center-block shade-image" src="">
+          </div>
+          <div class="details" id="eucharist-android-details">
+            <p class='text-center details-p'>Available in the <a href="https://play.google.com/store/apps/details?id=com.e_ucharist.e_ucharist&pli=1">Google Play Store.</a></p>
+          </div>
+        </div>
+        <div class="column col-xs-12 col-sm-4 col-md-4 col-lg-4">
+            <div class="title-and-thumbnail">
+              <h3>iOS</h3>
+              <img class="img-rounded img-responsive webpage center-block shade-image" src="">
+            </div>
+            <div class="details" id="eucharist-iOS-details">
+              <p class='text-center details-p'>Though I submitted the iOS version of the app to the Apple Store as an Apple Developer, it was too simple to be accepted! &#128517;</p>
+            </div>
+         </div>
+       </div>
+    </section>
+    <section class="container">
+      <div class="row">
+      </div>
+    </section>  
     <section class="container">
       <h1>Web Development Projects</h1>
       <div class="row">
@@ -52,7 +84,7 @@
           </div>
           <div class="details" id="poke-details">
             <p class='text-center details-p'>A simple pokedex for the first 151 Pokemon.</p>
-            <p class='text-center'><button class="btn btn-default btn-danger btn-lg" type="button" name="button"><a href="https://shamikalashawn.github.io/Pokedex/">Pokedex</a></button></p>
+            <!--<p class='text-center'><button class="btn btn-default btn-danger btn-lg" type="button" name="button"><a href="https://shamikalashawn.github.io/Pokedex/">Pokedex</a></button></p>-->
             <h3>Technologies</h3>
             <div class="tech-logos">
               <img class="logo" src="https://shamikalashawn.github.io/TechChaplain/static/images/HTML.png" alt="HTML logo">
@@ -69,7 +101,7 @@
           </div>
           <div class="details" id="tb-details">
             <p class='details-p text-center'>A fun and friendly game of truth or dare for everyone to enjoy.  And for those over 18, there's even more fun to be had!</p>
-            <p class='text-center'><button class="btn btn-default btn-primary btn-lg" type="button" name="button"><a href="https://boiling-gorge-18646.herokuapp.com/">Truth Or Dare</a></button></p>
+            <!--<p class='text-center'><button class="btn btn-default btn-primary btn-lg" type="button" name="button"><a href="https://boiling-gorge-18646.herokuapp.com/">Truth Or Dare</a></button></p>-->
             <h3>Technologies</h3>
             <div class="tech-logos">
               <img class="logo" src="https://shamikalashawn.github.io/TechChaplain/static/images/python.png" alt="Python logo">
@@ -87,7 +119,7 @@
           </div>
           <div class="details" id="theo-details">
             <p class='details-p text-center'>This fun project was born from creating motivational posters featuring theologians.  Now everyone can collect their favorite theologians!</p>
-            <p class='text-center'><button class="btn btn-default btn-success btn-lg" type="button" name="button"><a href="http://ec2-13-58-144-52.us-east-2.compute.amazonaws.com">Theologian Trading Cards</a></button></p>
+            <!--<p class='text-center'><button class="btn btn-default btn-success btn-lg" type="button" name="button"><a href="http://ec2-13-58-144-52.us-east-2.compute.amazonaws.com">Theologian Trading Cards</a></button></p>-->
             <h3>Technologies</h3>
             <div class="tech-logos">
               <img class="logo" src="https://shamikalashawn.github.io/TechChaplain/static/images/MEAN.png" alt="MEAN logo">
@@ -98,6 +130,10 @@
             </div>
           </div>
         </div>
+      </div>
+    </section>
+    <section class="container">
+      <div class="row">
       </div>
     </section>
     <section class="container">
@@ -154,7 +190,7 @@
             <button type="button" class="close" data-dismiss="modal">&times;</button>
             <h4 class="modal-title">Let's Rap</h4>
           </div>
-          <div class="modal-body">
+          <div class="modal-body" id="myModal" >
             <form action="/contact" method="post">
               <div class="form-group">
                 <label for="first-name"> First Name: </label>
@@ -170,7 +206,7 @@
               </div>
               <div class="form-group">
                 <label for="phone">Phone: </label>
-                <input class="form-control" type="number" name="phone" id="phone" placeholder="2108675309">
+                <input class="form-control" type="number" name="phone" id="phone" placeholder="210-555-5555">
               </div>
               <div class="form-group">
                 <label for="message">Message: </label>
