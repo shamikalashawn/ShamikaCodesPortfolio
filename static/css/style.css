@@ -9,6 +9,9 @@ h1{
   display: inline-block;
   color: #337ab7;
 }
+h2{
+  text-align: center;
+}
 h3{
   text-align: center;
 }
