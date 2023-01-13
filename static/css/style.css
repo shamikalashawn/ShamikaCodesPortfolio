@@ -42,8 +42,9 @@ button a{
   height: 25vh;
 }
 .logo{
-  display: block;
-  margin: auto;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
   width: 10%;
 }
 .details{
@@ -67,6 +68,7 @@ button a{
 }
 .tech-logos{
   text-align: center;
+  margin: auto;
 }
 .app-title{
   display: inline-block;
