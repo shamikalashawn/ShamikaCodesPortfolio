@@ -42,9 +42,8 @@ button a{
   height: 25vh;
 }
 .logo{
-  display: inline-block;
-  margin-left: auto;
-  margin-right: auto;
+  display: block;
+  margin: auto;
   width: 10%;
 }
 .details{
