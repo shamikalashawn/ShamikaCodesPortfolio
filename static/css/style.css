@@ -46,7 +46,6 @@ button a{
   margin-left: auto;
   margin-right: auto;
   width: 10%;
-  text-align: center;
 }
 .details{
   display: inline-block;
@@ -74,4 +73,8 @@ button a{
 .app-title{
   display: inline-block;
   height: 10vh;
+}
+.flex-container {
+  display: flex;
+  justify-content: center;
 }
